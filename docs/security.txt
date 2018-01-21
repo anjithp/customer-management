@@ -1,0 +1,8 @@
+Security of the CDM REST APIs can be implemented using oauth protocol.  Following are the brief implementation steps that I would do.
+
+1)	Customer registers his  profile and we save his credentials in the database securley.
+2)	Whenever customer wants to do subsequent operations on his profile then he shares his username/password once to the system using login API( over SSL) then the resource server will provide a temporary hmac based token. 
+3)	Customer will use the token received in the above step for further operations.
+4)	We can also make sure that one customer can’t modify the data of another customer(s).
+5)	For more granular control, we can implement RBAC so that admins can also change the customer information if required. 
+

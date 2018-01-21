@@ -1,0 +1,5 @@
+1.	Customer Data Management module can be used to register/get/update/delete customers using a RESTful API.
+2.	The API has four endpoints to achieve the customer CRUD operations and one endpoint for creating field metadata so that new customer fields
+can be defined at run time (Please see the swagger documentation for more information). 
+3.	This API can be used by web and mobile clients using HTTP as the main data transfer protocol. 
+4.	APIs are secured using Authentication Token mechanism(Please see the security document for more information).
