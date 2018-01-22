@@ -6,9 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import com.fasterxml.jackson.annotation.JsonAnySetter;
-import com.fasterxml.jackson.annotation.JsonUnwrapped;
-
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -32,13 +29,8 @@ public class Customer extends BaseResource{
 	private String dateOfBirth;
 	private List<Address> addresses = new ArrayList<>();
 	
-	@JsonUnwrapped
 	private Map<String, String> customFields = new HashMap<>();
 	
-	@JsonAnySetter
-	public void addCustomFields(String key, String value) {
-		this.customFields.put(key, value);
-	}
 
 	@JsonAnyGetter
 	public  Map<String, String> getCustomFields() {
