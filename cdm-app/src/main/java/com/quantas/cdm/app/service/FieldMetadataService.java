@@ -1,4 +1,4 @@
-package com.quantas.cdm.service;
+package com.quantas.cdm.app.service;
 
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.quantas.cdm.model.FieldMetadata;
+import com.quantas.cdm.api.model.FieldMetadata;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

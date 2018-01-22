@@ -1,4 +1,4 @@
-package com.quantas.cdm.model;
+package com.quantas.cdm.api.model;
 
 import lombok.Getter;
 import lombok.Setter;

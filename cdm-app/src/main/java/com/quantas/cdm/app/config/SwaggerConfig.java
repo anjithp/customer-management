@@ -1,4 +1,4 @@
-package com.quantas.cdm.config;
+package com.quantas.cdm.app.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +18,7 @@ public class SwaggerConfig {
     public Docket api() { 
         return new Docket(DocumentationType.SWAGGER_2)  
           .select()                                  
-          .apis(RequestHandlerSelectors.basePackage("com.quantas.cdm.service"))              
+          .apis(RequestHandlerSelectors.basePackage("com.quantas.cdm.app.service"))              
           .paths(PathSelectors.any())                          
           .build();                                           
     }

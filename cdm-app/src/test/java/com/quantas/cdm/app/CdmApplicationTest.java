@@ -1,4 +1,4 @@
-package com.quantas.cdm.cdmapp;
+package com.quantas.cdm.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

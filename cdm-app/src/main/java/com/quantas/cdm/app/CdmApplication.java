@@ -1,4 +1,4 @@
-package com.quantas.cdm;
+package com.quantas.cdm.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

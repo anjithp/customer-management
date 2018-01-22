@@ -1,4 +1,4 @@
-package com.quantas.cdm.validator;
+package com.quantas.cdm.app.validator;
 
 import org.springframework.stereotype.Component;
 

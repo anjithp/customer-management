@@ -1,4 +1,4 @@
-package com.quantas.cdm.service;
+package com.quantas.cdm.app.service;
 
 
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.quantas.cdm.model.Customer;
+import com.quantas.cdm.api.model.Customer;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

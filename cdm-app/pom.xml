@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.quantas.cdm</groupId>
+	<groupId>com.quantas.cdm.app</groupId>
 	<artifactId>cdm-app</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
@@ -22,7 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<start-class>com.quantas.cdm.CdmApplication</start-class>
+		<start-class>com.quantas.cdm.app.CdmApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -31,7 +31,7 @@
 	    <artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.quantas.cdm</groupId>
+			<groupId>com.quantas.cdm.api</groupId>
 			<artifactId>cdm-api</artifactId>
 			<version>1.0.0</version>
 		</dependency>
