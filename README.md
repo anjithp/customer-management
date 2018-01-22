@@ -16,6 +16,4 @@ How to add new data fields?
 3)Customer create service can validate the field and save the same in the database along with default fields.    
 
 API Implementation:  
-I have just created the API contract in this project but implementation can be done given sufficient time.    
-
-
+I have just created the API contract in this project but implementation can be done given sufficient time.  
